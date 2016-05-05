@@ -17,6 +17,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
+    "less": "^2.6.1",
     "svg4everybody": "^2.0.3"
   },
   "repository": {
