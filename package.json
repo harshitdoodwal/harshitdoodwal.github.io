@@ -1,0 +1,30 @@
+{
+  "name": "harshitdoodwal.github.io",
+  "version": "0.0.0",
+  "description": "This is the Official Portfolio of Harshit Doodwal",
+  "private": true,
+  "keywords": [
+    "harshit",
+    "doodwal",
+    "portfolio",
+    "official"
+  ],
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Puranjay Jain <puranjay.jain@st.niituniversity.in>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "svg4everybody": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitdoodwal/harshitdoodwal.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harshitdoodwal/harshitdoodwal.github.io/issues"
+  },
+  "homepage": "https://harshitdoodwal.github.io"
+}
