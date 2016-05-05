@@ -1,0 +1,101 @@
+{
+  "fileExtensions": [".less", ".css"],
+
+  "attributeQuotes": {
+    "severity": "error"
+  },
+  "borderZero": {
+    "severity": "error"
+  },
+  "decimalZero": {
+    "style": "none",
+    "severity": "error"
+  },
+  "depthLevel": {
+    "depth": "4",
+    "severity": "error"
+  },
+  "duplicateProperty": {
+    "severity": "error"
+  },
+  "emptyRule": {
+    "severity": "error"
+  },
+  "finalNewline": {
+    "severity": "error"
+  },
+  "hexNotation": {
+    "severity": "error"
+  },
+  "hexValidation": {
+    "severity": "error"
+  },
+  "idSelector": {
+    "severity": "error"
+  },
+  "importantRule": {
+    "severity": "error"
+  },
+  "importPath": {
+    "severity": "error"
+  },
+  "propertyOrdering": {
+    "severity": "error"
+  },
+  "qualifyingElement": {
+    "severity": "error"
+  },
+  "selectorNaming": {
+    "severity": "error"
+  },
+  "singleLinePerProperty": {
+    "severity": "error"
+  },
+  "singleLinePerSelector": {
+    "severity": "error"
+  },
+  "spaceAfterPropertyColon": {
+    "style": "no_space",
+    "severity": "error"
+  },
+  "spaceAfterPropertyName": {
+    "severity": "error"
+  },
+  "spaceAfterPropertyValue": {
+    "severity": "error"
+  },
+  "spaceAroundComma": {
+    "style": "none",
+    "severity": "error"
+  },
+  "spaceAroundOperator": {
+    "style": "none",
+    "severity": "error"
+  },
+  "spaceBeforeBrace": {
+    "style": "no_space",
+    "severity": "error"
+  },
+  "spaceBetweenParens": {
+    "severity": "error"
+  },
+  "stringQuotes": {
+    "severity": "error"
+  },
+  "trailingSemicolon": {
+    "severity": "error"
+  },
+  "trailingWhitespace": {
+    "severity": "error"
+  },
+  "urlFormat": {
+    "severity": "error"
+  },
+  "urlQuotes": {
+    "severity": "error"
+  },
+  "zeroUnit": {
+    "style": "no_unit",
+    "severity": "error"
+  }
+}
