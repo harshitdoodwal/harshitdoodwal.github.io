@@ -8,7 +8,7 @@
     "severity": "error"
   },
   "decimalZero": {
-    "style": "none",
+    "style": "leading",
     "severity": "error"
   },
   "depthLevel": {
@@ -52,7 +52,7 @@
     "severity": "error"
   },
   "singleLinePerSelector": {
-    "severity": "error"
+    "enabled": false
   },
   "spaceAfterPropertyColon": {
     "severity": "error"
@@ -64,7 +64,7 @@
     "severity": "error"
   },
   "spaceAroundComma": {
-    "style": "none",
+    "style": "after",
     "severity": "error"
   },
   "spaceAroundOperator": {
