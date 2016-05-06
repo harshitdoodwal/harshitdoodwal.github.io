@@ -1,6 +1,10 @@
+@import 'fonts';
+
 body {
   margin: 0;
-  background-color: #f6f6f6;
+  font-family: 'measure', sans-serif;
+  background-color: #e9e9e9;
+  font-size: 18px;
 }
 
 // environment
@@ -18,6 +22,20 @@ body {
   }
 }
 
+.hp {
+  position: absolute;
+  right: 25px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px
+  }
+}
+
 // player character
 .player {
   position: absolute;
@@ -25,4 +43,24 @@ body {
   left: 50%;
   height: 205px;
   width: 180px;
+}
+
+// dialog balloons
+.talking-balloon {
+  position: absolute;
+  bottom: 274px;
+  background-color: #ffffff;
+  padding: 12px;
+  left: 50%;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ffffff;
+  }
 }
