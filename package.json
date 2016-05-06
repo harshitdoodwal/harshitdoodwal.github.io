@@ -16,10 +16,13 @@
   "author": "Puranjay Jain <puranjay.jain@st.niituniversity.in>",
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.12.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-cache": "^0.4.4",
+    "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^2.0.0",
     "gulp-imagemin": "^2.4.0",
     "gulp-uglify": "^1.5.3",
     "run-sequence": "^1.1.5"

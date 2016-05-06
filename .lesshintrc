@@ -40,7 +40,7 @@
     "severity": "error"
   },
   "propertyOrdering": {
-    "severity": "error"
+    "enabled": false
   },
   "qualifyingElement": {
     "severity": "error"
@@ -55,7 +55,6 @@
     "severity": "error"
   },
   "spaceAfterPropertyColon": {
-    "style": "no_space",
     "severity": "error"
   },
   "spaceAfterPropertyName": {
@@ -69,11 +68,10 @@
     "severity": "error"
   },
   "spaceAroundOperator": {
-    "style": "none",
+    "style": "both",
     "severity": "error"
   },
   "spaceBeforeBrace": {
-    "style": "no_space",
     "severity": "error"
   },
   "spaceBetweenParens": {

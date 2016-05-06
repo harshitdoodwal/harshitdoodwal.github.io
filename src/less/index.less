@@ -1,3 +1,28 @@
-.somehin{
-  margin:0;
+body {
+  margin: 0;
+  background-color: #f6f6f6;
+}
+
+// environment
+.floor {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+
+  .tile {
+    flex-shrink: 0;
+    width: 250px;
+  }
+}
+
+// player character
+.player {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  height: 205px;
+  width: 180px;
 }
