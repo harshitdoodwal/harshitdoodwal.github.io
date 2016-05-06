@@ -5,3 +5,5 @@
 * Add vr, hat of graduation and other props to be changed on screen change
 * Be responsive in your design
 * Add browser sync e.g in mddatetimepickerpages
+* use a crane-like object or a robotic arm coming from the left to move the character to spot when moving from one page to another
+* get resume available via github (if possible) using http://resume.github.io/?harshitdoodwal from here https://github.com/resume/resume.github.com

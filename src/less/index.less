@@ -14,6 +14,7 @@ body {
   top: 0;
   left: 0;
   display: flex;
+  z-index: 2;
 
   button {
     margin: 5px;
@@ -76,11 +77,17 @@ body {
   height: 400px;
 
   // arrange the books in each shelf
-  .generate-racks(3);
+  .book {
+    transform: translate(10px, 100px);
+  }
 
-  .generate-racks(@n, @i: 1) when (@i =< @n) {
+  .generate-racks(4);
+
+  .generate-racks(@n, @i: 1) when (@i <= @n) {
+    @val: (@i - 1) * 100%;
     .book:nth-of-type(@{i}) {
-      transform: translateX(@i * 100% / @n);
+      margin: 2px;
+      transform: translate(~"calc(@{val} + 14px)", 100px);
     }
     .generate-racks(@n, (@i + 1));
   }
