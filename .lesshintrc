@@ -24,6 +24,9 @@
   "finalNewline": {
     "severity": "error"
   },
+  "hexLength": {
+    "severity": "error"
+  },
   "hexNotation": {
     "severity": "error"
   },
