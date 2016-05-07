@@ -70,6 +70,31 @@ body {
   width: 72px;
 }
 
+.plant {
+  position: absolute;
+  bottom: 50px;
+  right: 5%;
+  width: 48px;
+  height: 90px;
+
+  .pot {
+    transform: translate(0, 42px);
+  }
+
+  // cactus
+  &.cactus {
+    height: 113px;
+
+    .top {
+      transform: scaleY(1.5);
+    }
+
+    .pot {
+      transform: translate(0, 65px);
+    }
+  }
+}
+
 .window {
   position: absolute;
   bottom: 26%;
