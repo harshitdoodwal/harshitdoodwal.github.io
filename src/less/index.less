@@ -70,10 +70,16 @@ body {
   width: 72px;
 }
 
+.chart {
+  position: absolute;
+  left: 22%;
+  top: 50%;
+  height: 64px;
+}
+
 .plant {
   position: absolute;
   bottom: 50px;
-  right: 5%;
   width: 48px;
   height: 90px;
 
@@ -81,18 +87,38 @@ body {
     transform: translate(0, 42px);
   }
 
+  // sunflower
+  &.sunflower {
+    left:23%;
+    height: 94px;
+
+    .pot {
+      transform: translate(0, 46px);
+    }
+  }
+
   // cactus
   &.cactus {
-    height: 113px;
+    height: 134px;
+    right: 5%;
 
     .top {
-      transform: scaleY(1.5);
+      transform: scaleY(2);
     }
 
     .pot {
-      transform: translate(0, 65px);
+      transform: translate(0, 86px);
     }
   }
+}
+
+// guitar
+.guitar {
+  position: absolute;
+  bottom: 50px;
+  left: 70%;
+  height: 96px;
+  transform: rotate(-31deg);
 }
 
 .window {
@@ -120,6 +146,34 @@ body {
   .chair {
     transform: scale(2.5) translate(14px, 26px);
   }
+}
+
+.bag {
+  position: absolute;
+  bottom: 50px;
+  left: 46%;
+  height: 64px;
+}
+
+.couch {
+  position: absolute;
+  bottom: 50px;
+  left: 75%;
+  height: 140px;
+}
+
+.controller {
+  position: absolute;
+  bottom: 111px;
+  left: 77%;
+  height: 48px;
+}
+
+.dart {
+  position: absolute;
+  top: 40%;
+  left: 79%;
+  height: 64px;
 }
 
 .trophy {
@@ -170,6 +224,27 @@ body {
   // exceptional errors fixed
   .book:nth-of-type(9) {
     transform: translate(9px, 182px);
+  }
+}
+
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+
+  svg {
+    height: 48px;
+    cursor: pointer;
+  }
+
+  .copyright {
+    color: #ffe5a5;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 8px;
+    font-size: 18px;
   }
 }
 
