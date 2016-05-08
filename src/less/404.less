@@ -1,0 +1,96 @@
+@import 'core/_defaults';
+
+body {
+  overflow-y: hidden;
+}
+
+// activity
+.main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 2;
+
+  button {
+    margin: 5px;
+    background-color: #4173b1;
+    color: #ffffff;
+    border-radius: 3px;
+    border-bottom: 6px solid #212a35;
+
+    &:hover {
+      border-bottom-width: 4px;
+    }
+
+    &:active {
+      border-bottom-width: 0;
+    }
+  }
+}
+
+.text-content {
+  position: absolute;
+}
+
+.bear-container {
+  position: absolute;
+  bottom: 50px;
+  left: 35%;
+  display: flex;
+  align-items: flex-end;
+
+  span {
+    font-size: 302px;
+    line-height: 228px;
+  }
+
+  .bear {
+    height: 320px;
+  }
+}
+
+// environment
+.floor {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+
+  .tile {
+    flex-shrink: 0;
+    width: 250px;
+  }
+}
+
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+
+  svg {
+    height: 48px;
+    cursor: pointer;
+  }
+
+  .copyright {
+    color: #ffe5a5;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 8px;
+    font-size: 18px;
+  }
+}
+
+// player character
+.player {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  height: 225px;
+  width: 180px;
+}
